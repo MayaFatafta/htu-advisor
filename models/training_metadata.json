@@ -1,0 +1,363 @@
+{
+  "installed": true,
+  "trained_at_utc": "2026-09-26T16:08:49.170047+00:00",
+  "dataset_path": "C:\\Users\\user\\Downloads\\finalModel\\htu_majors_interests.csv",
+  "dataset_sha256": "ebb8349e34d475658da0d14f1ae3b746b791584164be10be9cffe3f52320ff29",
+  "rows_used": 5000,
+  "feature_count": 34,
+  "feature_columns": [
+    "assembling",
+    "bikes",
+    "car",
+    "cardboard",
+    "tinkering",
+    "tools",
+    "circuits",
+    "bulbs",
+    "wires",
+    "windmills",
+    "connecting",
+    "climate",
+    "tasks",
+    "time",
+    "toys",
+    "teamwork",
+    "work",
+    "reading",
+    "building",
+    "likes_computers",
+    "likes_coding",
+    "likes_drawing",
+    "likes_science",
+    "likes_math",
+    "likes_problem_solving",
+    "likes_robots",
+    "likes_circuits",
+    "likes_design",
+    "likes_games",
+    "likes_data",
+    "likes_ai",
+    "likes_security",
+    "likes_teamwork",
+    "likes_business"
+  ],
+  "target_column": "label",
+  "classes": [
+    "Architecture Engineering",
+    "CS",
+    "Cybersecurity",
+    "Data Science and Artificial Intelligence",
+    "Electrical Engineering",
+    "Energy Engineering",
+    "Game Design & Development",
+    "Industrial Engineering",
+    "Mechanical Engineering"
+  ],
+  "best_model": {
+    "name": "logistic_regression",
+    "cv_f1_macro_mean": 0.6774950111882605,
+    "cv_f1_macro_std": 0.018159267699707028,
+    "test_accuracy": 0.649,
+    "test_f1_macro": 0.6521908811399254,
+    "classification_report": {
+      "Architecture Engineering": {
+        "precision": 0.6886792452830188,
+        "recall": 0.73,
+        "f1-score": 0.7087378640776699,
+        "support": 100.0
+      },
+      "CS": {
+        "precision": 0.46153846153846156,
+        "recall": 0.42,
+        "f1-score": 0.4397905759162304,
+        "support": 100.0
+      },
+      "Cybersecurity": {
+        "precision": 0.5370370370370371,
+        "recall": 0.58,
+        "f1-score": 0.5576923076923077,
+        "support": 100.0
+      },
+      "Data Science and Artificial Intelligence": {
+        "precision": 0.6730769230769231,
+        "recall": 0.525,
+        "f1-score": 0.5898876404494382,
+        "support": 200.0
+      },
+      "Electrical Engineering": {
+        "precision": 0.7454545454545455,
+        "recall": 0.82,
+        "f1-score": 0.780952380952381,
+        "support": 100.0
+      },
+      "Energy Engineering": {
+        "precision": 0.71,
+        "recall": 0.71,
+        "f1-score": 0.71,
+        "support": 100.0
+      },
+      "Game Design & Development": {
+        "precision": 0.6542056074766355,
+        "recall": 0.7,
+        "f1-score": 0.6763285024154589,
+        "support": 100.0
+      },
+      "Industrial Engineering": {
+        "precision": 0.5862068965517241,
+        "recall": 0.68,
+        "f1-score": 0.6296296296296297,
+        "support": 100.0
+      },
+      "Mechanical Engineering": {
+        "precision": 0.7547169811320755,
+        "recall": 0.8,
+        "f1-score": 0.7766990291262136,
+        "support": 100.0
+      },
+      "accuracy": 0.649,
+      "macro avg": {
+        "precision": 0.6456572997278245,
+        "recall": 0.6627777777777777,
+        "f1-score": 0.6521908811399254,
+        "support": 1000.0
+      },
+      "weighted avg": {
+        "precision": 0.6483992620627345,
+        "recall": 0.649,
+        "f1-score": 0.6459605570708769,
+        "support": 1000.0
+      }
+    }
+  },
+  "candidate_results": [
+    {
+      "name": "logistic_regression",
+      "cv_f1_macro_mean": 0.6774950111882605,
+      "cv_f1_macro_std": 0.018159267699707028,
+      "test_accuracy": 0.649,
+      "test_f1_macro": 0.6521908811399254,
+      "classification_report": {
+        "Architecture Engineering": {
+          "precision": 0.6886792452830188,
+          "recall": 0.73,
+          "f1-score": 0.7087378640776699,
+          "support": 100.0
+        },
+        "CS": {
+          "precision": 0.46153846153846156,
+          "recall": 0.42,
+          "f1-score": 0.4397905759162304,
+          "support": 100.0
+        },
+        "Cybersecurity": {
+          "precision": 0.5370370370370371,
+          "recall": 0.58,
+          "f1-score": 0.5576923076923077,
+          "support": 100.0
+        },
+        "Data Science and Artificial Intelligence": {
+          "precision": 0.6730769230769231,
+          "recall": 0.525,
+          "f1-score": 0.5898876404494382,
+          "support": 200.0
+        },
+        "Electrical Engineering": {
+          "precision": 0.7454545454545455,
+          "recall": 0.82,
+          "f1-score": 0.780952380952381,
+          "support": 100.0
+        },
+        "Energy Engineering": {
+          "precision": 0.71,
+          "recall": 0.71,
+          "f1-score": 0.71,
+          "support": 100.0
+        },
+        "Game Design & Development": {
+          "precision": 0.6542056074766355,
+          "recall": 0.7,
+          "f1-score": 0.6763285024154589,
+          "support": 100.0
+        },
+        "Industrial Engineering": {
+          "precision": 0.5862068965517241,
+          "recall": 0.68,
+          "f1-score": 0.6296296296296297,
+          "support": 100.0
+        },
+        "Mechanical Engineering": {
+          "precision": 0.7547169811320755,
+          "recall": 0.8,
+          "f1-score": 0.7766990291262136,
+          "support": 100.0
+        },
+        "accuracy": 0.649,
+        "macro avg": {
+          "precision": 0.6456572997278245,
+          "recall": 0.6627777777777777,
+          "f1-score": 0.6521908811399254,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.6483992620627345,
+          "recall": 0.649,
+          "f1-score": 0.6459605570708769,
+          "support": 1000.0
+        }
+      }
+    },
+    {
+      "name": "random_forest",
+      "cv_f1_macro_mean": 0.6270517285844419,
+      "cv_f1_macro_std": 0.02011973399987618,
+      "test_accuracy": 0.652,
+      "test_f1_macro": 0.6482787925098222,
+      "classification_report": {
+        "Architecture Engineering": {
+          "precision": 0.68,
+          "recall": 0.68,
+          "f1-score": 0.68,
+          "support": 100.0
+        },
+        "CS": {
+          "precision": 0.546875,
+          "recall": 0.35,
+          "f1-score": 0.4268292682926829,
+          "support": 100.0
+        },
+        "Cybersecurity": {
+          "precision": 0.6049382716049383,
+          "recall": 0.49,
+          "f1-score": 0.5414364640883977,
+          "support": 100.0
+        },
+        "Data Science and Artificial Intelligence": {
+          "precision": 0.543859649122807,
+          "recall": 0.775,
+          "f1-score": 0.6391752577319587,
+          "support": 200.0
+        },
+        "Electrical Engineering": {
+          "precision": 0.8080808080808081,
+          "recall": 0.8,
+          "f1-score": 0.8040201005025126,
+          "support": 100.0
+        },
+        "Energy Engineering": {
+          "precision": 0.7764705882352941,
+          "recall": 0.66,
+          "f1-score": 0.7135135135135136,
+          "support": 100.0
+        },
+        "Game Design & Development": {
+          "precision": 0.7319587628865979,
+          "recall": 0.71,
+          "f1-score": 0.7208121827411168,
+          "support": 100.0
+        },
+        "Industrial Engineering": {
+          "precision": 0.5795454545454546,
+          "recall": 0.51,
+          "f1-score": 0.5425531914893617,
+          "support": 100.0
+        },
+        "Mechanical Engineering": {
+          "precision": 0.7623762376237624,
+          "recall": 0.77,
+          "f1-score": 0.7661691542288557,
+          "support": 100.0
+        },
+        "accuracy": 0.652,
+        "macro avg": {
+          "precision": 0.6704560857888514,
+          "recall": 0.6383333333333332,
+          "f1-score": 0.6482787925098222,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.6577964421222469,
+          "recall": 0.652,
+          "f1-score": 0.6473684390320358,
+          "support": 1000.0
+        }
+      }
+    },
+    {
+      "name": "extra_trees",
+      "cv_f1_macro_mean": 0.6206079369446209,
+      "cv_f1_macro_std": 0.018181078327409995,
+      "test_accuracy": 0.633,
+      "test_f1_macro": 0.6297231933201847,
+      "classification_report": {
+        "Architecture Engineering": {
+          "precision": 0.6666666666666666,
+          "recall": 0.7,
+          "f1-score": 0.6829268292682927,
+          "support": 100.0
+        },
+        "CS": {
+          "precision": 0.4925373134328358,
+          "recall": 0.33,
+          "f1-score": 0.39520958083832336,
+          "support": 100.0
+        },
+        "Cybersecurity": {
+          "precision": 0.5882352941176471,
+          "recall": 0.5,
+          "f1-score": 0.5405405405405406,
+          "support": 100.0
+        },
+        "Data Science and Artificial Intelligence": {
+          "precision": 0.5390334572490706,
+          "recall": 0.725,
+          "f1-score": 0.6183368869936035,
+          "support": 200.0
+        },
+        "Electrical Engineering": {
+          "precision": 0.7641509433962265,
+          "recall": 0.81,
+          "f1-score": 0.7864077669902912,
+          "support": 100.0
+        },
+        "Energy Engineering": {
+          "precision": 0.7317073170731707,
+          "recall": 0.6,
+          "f1-score": 0.6593406593406593,
+          "support": 100.0
+        },
+        "Game Design & Development": {
+          "precision": 0.7395833333333334,
+          "recall": 0.71,
+          "f1-score": 0.7244897959183674,
+          "support": 100.0
+        },
+        "Industrial Engineering": {
+          "precision": 0.5212765957446809,
+          "recall": 0.49,
+          "f1-score": 0.5051546391752577,
+          "support": 100.0
+        },
+        "Mechanical Engineering": {
+          "precision": 0.7708333333333334,
+          "recall": 0.74,
+          "f1-score": 0.7551020408163265,
+          "support": 100.0
+        },
+        "accuracy": 0.633,
+        "macro avg": {
+          "precision": 0.6460026949274406,
+          "recall": 0.6227777777777779,
+          "f1-score": 0.6297231933201847,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.6353057711596035,
+          "recall": 0.633,
+          "f1-score": 0.6285845626875265,
+          "support": 1000.0
+        }
+      }
+    }
+  ],
+  "backup_directory": "models\\backups\\20260926_190849"
+}
